@@ -1,4 +1,3 @@
-import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -35,16 +34,11 @@ class _SplashScreenState extends State<SplashScreen> {
                   width: 100,
                 ),
               ),
-              Center(
-                child: AnimatedTextKit(
-                  animatedTexts: [
-                    TyperAnimatedText("Gemini",
-                      textStyle: const TextStyle(
-                          fontSize: 25, fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ],
-                ),
+              const Center(
+                child:Text("Gemini",
+                style: TextStyle(
+                    fontSize: 25, fontWeight: FontWeight.bold,
+                  ),)
               ),
             ],
           ),
