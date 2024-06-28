@@ -29,14 +29,13 @@ class _HistoryScreenState extends State<HistoryScreen> {
               Get.back();
             },
             icon: const Icon(Icons.arrow_back),
-            color: Colors.black,
+            color: Colors.white,
           ),
           title: const Text(
             "History",
           ),
           centerTitle: true,
           iconTheme: const IconThemeData(color: Colors.white),
-          backgroundColor: Colors.greenAccent.shade100,
         ),
         body: Obx(
           () => ListView.builder(
@@ -74,7 +73,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
                   padding: const EdgeInsets.all(10),
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
-                      border: Border.all()),
+                      border: Border.all(color: Colors.white)),
                   child: Text(
                     "${controller.historyList[index].answer}",
                     overflow: TextOverflow.ellipsis,

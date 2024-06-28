@@ -7,6 +7,7 @@ void main(){
       GetMaterialApp(
         debugShowCheckedModeBanner: false,
         routes: screen_routes,
+        theme: ThemeData.dark(),
       )
   );
 }

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:gemini/screen/history/model/history_model.dart';
 import 'package:gemini/screen/home/controller/home_controller.dart';
 import 'package:gemini/utils/database/database_helper.dart';
@@ -24,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
           title: const Text(
             "Welcome To Gemini",
             style: TextStyle(
-                fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black),
+                fontSize: 25, fontWeight: FontWeight.bold),
           ),
           actions: [
             IconButton(
@@ -33,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
               },
               icon: const Icon(
                 Icons.history,
-                color: Colors.black,
+                color: Colors.white,
               ),
             ),
           ],
@@ -57,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: MediaQuery.sizeOf(context).width * 0.9,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
-                        border: Border.all(color: Colors.black),
+                        border: Border.all(color: Colors.white),
                       ),
                       child: Column(
                         children: [
@@ -72,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               },
                               icon: const Icon(
                                 Icons.bookmark_border,
-                                color: Colors.black,
+                                color: Colors.white,
                               ),
                             ),
                           ),
