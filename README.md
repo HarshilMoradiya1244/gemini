@@ -1,4 +1,3 @@
-![Screenshot_2024-06-28-13-13-35-80_3bdb46c340f521c59196a1fe0025f3e0-portrait](https://github.com/HarshilMoradiya1244/gemini/assets/142592789/3185356e-0878-4ded-89f2-0811b32de569)# gemini
 
 A new Flutter project.
 
